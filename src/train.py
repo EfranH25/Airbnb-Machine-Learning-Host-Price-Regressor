@@ -663,5 +663,5 @@ if __name__ == '__main__':
 
     X_train, y_train, X_valid, y_valid = ML_feature_selection(df_train, df_valid, method='sel',
                                                               model_name='dec_tree', max=15)
-    #train_tune_model(X_train, y_train, model_name='xgb', search_type='GS')
+    train_tune_model(X_train, y_train, model_name='xgb', search_type='GS')
     print('DONE')
