@@ -1,0 +1,264 @@
+Model Name,Selection,Parameters,R2 Score,RMSE Score
+Linear Regression,base,"fit_intercept = True, 
+ normalize = False",-5.35E+24,-9.70E+13
+Lasso Regression,base,"alpha = 1.0, 
+ normalize = False",0.479099793,-60.52669656
+SVR,base,"C = 1, 
+ gamma = scale",0.112217492,-79.02684571
+KNN,base,"n_neighbors = 5, 
+ p = 2",0.449489445,-62.17872823
+Tree,base,"criterion = mse, 
+ max_depth = None",0.25307914,-72.4091743
+XGBoost,base,default,0.563154545,-55.33842503
+Linear Regression,sel ln_reg,"fit_intercept = True, 
+ normalize = False",-3.88E+26,-8.08E+14
+Lasso Regression,sel ln_reg,"alpha = 1.0, 
+ normalize = False",-0.003477051,-83.96469605
+SVR,sel ln_reg,"C = 1, 
+ gamma = scale",-0.04409077,-85.67905134
+KNN,sel ln_reg,"n_neighbors = 5, 
+ p = 2",-0.061541078,-86.26249325
+Tree,sel ln_reg,"criterion = mse, 
+ max_depth = None",-7.83E-05,-83.82544187
+Random Forest,sel ln_reg,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",-0.00074074,-83.8519202
+XGBoost,sel ln_reg,default,-0.000209466,-83.83069382
+Linear Regression,sel rnd_for_reg,"fit_intercept = True, 
+ normalize = False",0.471179224,-60.93550174
+Lasso Regression,sel rnd_for_reg,"alpha = 1.0, 
+ normalize = False",0.449582147,-62.20261287
+SVR,sel rnd_for_reg,"C = 1, 
+ gamma = scale",0.273243726,-71.5145479
+KNN,sel rnd_for_reg,"n_neighbors = 5, 
+ p = 2",0.500668178,-59.18227392
+Tree,sel rnd_for_reg,"criterion = mse, 
+ max_depth = None",0.14136411,-77.10916813
+Random Forest,sel rnd_for_reg,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.563885977,-55.36730652
+XGBoost,sel rnd_for_reg,default,0.543627678,-56.40992576
+Linear Regression,sel dec_tree,"fit_intercept = True, 
+ normalize = False",0.465922673,-61.24215301
+Lasso Regression,sel dec_tree,"alpha = 1.0, 
+ normalize = False",0.449635327,-62.19942913
+SVR,sel dec_tree,"C = 1, 
+ gamma = scale",0.274606985,-71.44479268
+KNN,sel dec_tree,"n_neighbors = 5, 
+ p = 2",0.482253528,-60.24352658
+Tree,sel dec_tree,"criterion = mse, 
+ max_depth = None",0.188807275,-75.23227521
+Random Forest,sel dec_tree,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.573018132,-54.78019767
+XGBoost,sel dec_tree,default,0.545228648,-56.52597405
+Linear Regression,sel grd_boost,"fit_intercept = True, 
+ normalize = False",0.477246914,-60.59358584
+Lasso Regression,sel grd_boost,"alpha = 1.0, 
+ normalize = False",0.452467219,-62.04281311
+SVR,sel grd_boost,"C = 1, 
+ gamma = scale",0.261561209,-72.08638726
+KNN,sel grd_boost,"n_neighbors = 5, 
+ p = 2",0.50230956,-59.0877587
+Tree,sel grd_boost,"criterion = mse, 
+ max_depth = None",0.149751789,-76.94068779
+Random Forest,sel grd_boost,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.57160426,-54.87397108
+XGBoost,sel grd_boost,default,0.557010608,-55.67351412
+Linear Regression,sel lasso,"fit_intercept = True, 
+ normalize = False",0.383134578,-65.79994946
+Lasso Regression,sel lasso,"alpha = 1.0, 
+ normalize = False",0.380960587,-65.94444186
+SVR,sel lasso,"C = 1, 
+ gamma = scale",0.31476701,-69.44961727
+KNN,sel lasso,"n_neighbors = 5, 
+ p = 2",0.321034166,-68.98758814
+Tree,sel lasso,"criterion = mse, 
+ max_depth = None",0.391436791,-65.34206995
+Random Forest,sel lasso,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.392222952,-65.30026126
+XGBoost,sel lasso,default,0.391841815,-65.32218341
+Linear Regression,sel ridge,"fit_intercept = True, 
+ normalize = False",0.349865141,-67.52329745
+Lasso Regression,sel ridge,"alpha = 1.0, 
+ normalize = False",0.339735537,-68.04599111
+SVR,sel ridge,"C = 1, 
+ gamma = scale",0.259281926,-72.18175386
+KNN,sel ridge,"n_neighbors = 5, 
+ p = 2",0.303232982,-69.84210821
+Tree,sel ridge,"criterion = mse, 
+ max_depth = None",0.330748632,-68.34483002
+Random Forest,sel ridge,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.37741028,-65.99586859
+XGBoost,sel ridge,default,0.362742415,-66.74890628
+Linear Regression,forward ln_reg,"fit_intercept = True, 
+ normalize = False",0.49286215,-59.68454376
+Lasso Regression,forward ln_reg,"alpha = 1.0, 
+ normalize = False",0.468786666,-61.10942783
+SVR,forward ln_reg,"C = 1, 
+ gamma = scale",0.308955523,-69.73526881
+KNN,forward ln_reg,"n_neighbors = 5, 
+ p = 2",0.449477634,-62.23494968
+Tree,forward ln_reg,"criterion = mse, 
+ max_depth = None",0.418750986,-63.87018375
+Random Forest,forward ln_reg,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.454346817,-61.94245514
+XGBoost,forward ln_reg,default,0.421402574,-63.73208433
+Linear Regression,forward dec_tree,"fit_intercept = True, 
+ normalize = False",0.436353375,-62.95207242
+Lasso Regression,forward dec_tree,"alpha = 1.0, 
+ normalize = False",0.429195447,-63.35878514
+SVR,forward dec_tree,"C = 1, 
+ gamma = scale",0.252708735,-72.52161946
+KNN,forward dec_tree,"n_neighbors = 5, 
+ p = 2",0.450576684,-62.13464817
+Tree,forward dec_tree,"criterion = mse, 
+ max_depth = None",0.284919391,-70.77689825
+Random Forest,forward dec_tree,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.52496552,-57.79042182
+XGBoost,forward dec_tree,default,0.495607733,-59.49420255
+Linear Regression,forward lasso,"fit_intercept = True, 
+ normalize = False",0.381260559,-65.90260616
+Lasso Regression,forward lasso,"alpha = 1.0, 
+ normalize = False",0.38053546,-65.96773238
+SVR,forward lasso,"C = 1, 
+ gamma = scale",0.176246355,-76.14290136
+KNN,forward lasso,"n_neighbors = 5, 
+ p = 2",0.355900988,-67.04369346
+Tree,forward lasso,"criterion = mse, 
+ max_depth = None",0.301960563,-69.58621749
+Random Forest,forward lasso,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.407664709,-64.22761919
+XGBoost,forward lasso,default,0.400479626,-64.67520732
+Linear Regression,forward ridge,"fit_intercept = True, 
+ normalize = False",0.460635826,-61.5585322
+Lasso Regression,forward ridge,"alpha = 1.0, 
+ normalize = False",0.450856333,-62.13797715
+SVR,forward ridge,"C = 1, 
+ gamma = scale",0.313840023,-69.5008512
+KNN,forward ridge,"n_neighbors = 5, 
+ p = 2",0.424598961,-63.61310535
+Tree,forward ridge,"criterion = mse, 
+ max_depth = None",0.411602491,-64.13799407
+Random Forest,forward ridge,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.454869662,-61.82414588
+XGBoost,forward ridge,default,0.4289249,-63.27728522
+Linear Regression,step ln_reg,"fit_intercept = True, 
+ normalize = False",0.49286215,-59.68454376
+Lasso Regression,step ln_reg,"alpha = 1.0, 
+ normalize = False",0.468786666,-61.10942783
+SVR,step ln_reg,"C = 1, 
+ gamma = scale",0.308955523,-69.73526881
+KNN,step ln_reg,"n_neighbors = 5, 
+ p = 2",0.449477634,-62.23494968
+Tree,step ln_reg,"criterion = mse, 
+ max_depth = None",0.418750986,-63.87018375
+Random Forest,step ln_reg,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.454346817,-61.94245514
+XGBoost,step ln_reg,default,0.421402574,-63.73208433
+Linear Regression,step dec_tree,"fit_intercept = True, 
+ normalize = False",0.436353375,-62.95207242
+Lasso Regression,step dec_tree,"alpha = 1.0, 
+ normalize = False",0.429195447,-63.35878514
+SVR,step dec_tree,"C = 1, 
+ gamma = scale",0.252708735,-72.52161946
+KNN,step dec_tree,"n_neighbors = 5, 
+ p = 2",0.450576684,-62.13464817
+Tree,step dec_tree,"criterion = mse, 
+ max_depth = None",0.284919391,-70.77689825
+Random Forest,step dec_tree,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.52496552,-57.79042182
+XGBoost,step dec_tree,default,0.495607733,-59.49420255
+Linear Regression,step lasso,"fit_intercept = True, 
+ normalize = False",0.381260559,-65.90260616
+Lasso Regression,step lasso,"alpha = 1.0, 
+ normalize = False",0.38053546,-65.96773238
+SVR,step lasso,"C = 1, 
+ gamma = scale",0.176246355,-76.14290136
+KNN,step lasso,"n_neighbors = 5, 
+ p = 2",0.355900988,-67.04369346
+Tree,step lasso,"criterion = mse, 
+ max_depth = None",0.301960563,-69.58621749
+Random Forest,step lasso,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.407664709,-64.22761919
+XGBoost,step lasso,default,0.400479626,-64.67520732
+Linear Regression,step ridge,"fit_intercept = True, 
+ normalize = False",0.460635826,-61.5585322
+Lasso Regression,step ridge,"alpha = 1.0, 
+ normalize = False",0.450856333,-62.13797715
+SVR,step ridge,"C = 1, 
+ gamma = scale",0.313840023,-69.5008512
+KNN,step ridge,"n_neighbors = 5, 
+ p = 2",0.424598961,-63.61310535
+Tree,step ridge,"criterion = mse, 
+ max_depth = None",0.411602491,-64.13799407
+Random Forest,step ridge,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.454869662,-61.82414588
+XGBoost,step ridge,default,0.4289249,-63.27728522
+Linear Regression,rfe ln_reg,"fit_intercept = True, 
+ normalize = False",-3.17E+24,-1.10E+14
+Lasso Regression,rfe ln_reg,"alpha = 1.0, 
+ normalize = False",-0.003477051,-83.96469605
+SVR,rfe ln_reg,"C = 1, 
+ gamma = scale",-0.04409077,-85.67905134
+KNN,rfe ln_reg,"n_neighbors = 5, 
+ p = 2",-0.061541078,-86.26249325
+Tree,rfe ln_reg,"criterion = mse, 
+ max_depth = None",-0.000237757,-83.83199158
+Random Forest,rfe ln_reg,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",-0.000614158,-83.84684347
+XGBoost,rfe ln_reg,default,-0.000209466,-83.83069382
+Linear Regression,rfe dec_tree,"fit_intercept = True, 
+ normalize = False",0.437558497,-62.8573745
+Lasso Regression,rfe dec_tree,"alpha = 1.0, 
+ normalize = False",0.419056295,-63.91067333
+SVR,rfe dec_tree,"C = 1, 
+ gamma = scale",0.307589282,-69.81014785
+KNN,rfe dec_tree,"n_neighbors = 5, 
+ p = 2",0.5013624,-59.08332789
+Tree,rfe dec_tree,"criterion = mse, 
+ max_depth = None",0.272480306,-71.12961176
+Random Forest,rfe dec_tree,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.572949026,-54.7090074
+XGBoost,rfe dec_tree,default,0.529585632,-57.36365556
+Linear Regression,rfe lasso,"fit_intercept = True, 
+ normalize = False",-3.49E+24,-6.49E+13
+Lasso Regression,rfe lasso,"alpha = 1.0, 
+ normalize = False",0.380943184,-65.94553448
+SVR,rfe lasso,"C = 1, 
+ gamma = scale",0.29690664,-70.34815867
+KNN,rfe lasso,"n_neighbors = 5, 
+ p = 2",0.285464375,-70.7974318
+Tree,rfe lasso,"criterion = mse, 
+ max_depth = None",0.27234695,-71.27690166
+Random Forest,rfe lasso,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.334311291,-68.26019372
+XGBoost,rfe lasso,default,0.293586476,-70.32323709
+Linear Regression,rfe ridge,"fit_intercept = True, 
+ normalize = False",0.32221106,-68.95931848
+Lasso Regression,rfe ridge,"alpha = 1.0, 
+ normalize = False",0.322646669,-68.90993351
+SVR,rfe ridge,"C = 1, 
+ gamma = scale",0.282980899,-71.0146116
+KNN,rfe ridge,"n_neighbors = 5, 
+ p = 2",0.286656724,-70.60064769
+Tree,rfe ridge,"criterion = mse, 
+ max_depth = None",0.324752509,-68.72343342
+Random Forest,rfe ridge,"n_estimators = 100, 
+ max_depth = None, min_impurity_decrease = 0, 
+ min_samples_leaf = 1, max_features = auto",0.345434328,-67.66746848
+XGBoost,rfe ridge,default,0.336335955,-68.16481885
