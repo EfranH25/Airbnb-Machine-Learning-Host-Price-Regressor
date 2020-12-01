@@ -3,7 +3,7 @@
 <p align="center">
   <h3 align="center">Airbnb Price Regressor</h3>
   <p align="center">
-    <img width="460" height="300" src="https://github.com/EfranH25/Airbnb-Price-Regressor/blob/main/logo.png">
+    <img width="450" height="180" src="https://github.com/EfranH25/Airbnb-Price-Regressor/blob/main/logo.png">
 </p>
   <p align="center">
     Hello World! This is a machine learning project where I try to create some model that can accurately predict the price of airbnb listings based on their characteristics. 
