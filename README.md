@@ -1,7 +1,7 @@
 # Airbnb Machine Learning Host Price Regressor
 <br />
 <p align="center">
-  <h3 align="center">Airbnb Price Regressor</h3>
+  <h3 align="center">Airbnb Machine Learning Host Price Regressor</h3>
   <p align="center">
     <img width="450" height="180" src="https://github.com/EfranH25/Airbnb-Price-Regressor/blob/main/logo.png">
 </p>
