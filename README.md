@@ -1,4 +1,4 @@
-# Airbnb-Price-Regressor
+# Airbnb Machine Learning Host Price Regressor
 <br />
 <p align="center">
   <h3 align="center">Airbnb Price Regressor</h3>
