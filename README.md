@@ -20,10 +20,10 @@
 ## Table of Contents
 
 * [Background](#Background)
-  * [Summary](#Summary)
-  * [Data](#Data)
-  * [Tools](#Tools)
-  * [Structure](#Structure)
+* [Summary](#Summary)
+* [Data](#Data)
+* [Tools](#Tools)
+* [Structure](#Structure)
 
 
 <!-- Background -->
